@@ -66,6 +66,7 @@ const config = {
 
   // To hide the `My Projects` section, keep it empty.
   externalProjects: [
+    /*
     {
       title: '',
       description:
@@ -80,15 +81,18 @@ const config = {
       imageUrl: 'https://via.placeholder.com/250x250',
       link: 'https://example.com',
     },
+    */
   ],
   // Display blog posts from your medium or dev account. (Optional)
-  /*
+  
   blog: {
+    /*
     source: 'dev', // medium | dev
     username: 'arifszn', // to hide blog section, keep it empty
     limit: 2, // How many posts to display. Max is 10.
+    */
   },
-  */
+  
   googleAnalytics: {
     id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
   },

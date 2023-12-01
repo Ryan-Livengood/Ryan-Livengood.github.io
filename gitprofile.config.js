@@ -7,7 +7,7 @@ const config = {
     limit: 10, // How many projects to display.
     exclude: {
       forks: true, // Forked projects will not be displayed if set to true.
-      projects: [], // These projects will not be displayed. example: ['my-project1', 'my-project2']
+      projects: ['cse15l-lab-reports', 'grader-review-Waterblokey'], // These projects will not be displayed. example: ['my-project1', 'my-project2']
     },
   },
   social: {
@@ -65,8 +65,8 @@ const config = {
   ],
 
   // To hide the `My Projects` section, keep it empty.
+  /*
   externalProjects: [
-    /*
     {
       title: '',
       description:
@@ -81,8 +81,8 @@ const config = {
       imageUrl: 'https://via.placeholder.com/250x250',
       link: 'https://example.com',
     },
-    */
   ],
+  */
   // Display blog posts from your medium or dev account. (Optional)
   
   blog: {
